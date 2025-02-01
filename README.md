@@ -3,22 +3,22 @@
 Make sure to install dependencies:
 
 ```bash
-# npm
 npm install
 ```
 ## Development Server
 ```bash
-# run backend
 npm run start
 ```
 ## Testing
 ```bash
-# npm
 npm test
 ```
-## Note:
+## Deploy
+Automatic Deployment: Every commit to the main branch automatically triggers a deployment on Vercel.
 
-To provide a personalized experience, a plugin was implemented to generate a unique ID for each user. This ensures that saved cities are tied to individual users, allowing each person to see only their saved cities.
+## Notes:
+### Recommended Node version: 18.20.5
+-> To provide a personalized experience, a plugin was implemented to generate a unique ID for each user. This ensures that saved cities are tied to individual users, allowing each person to see only their saved cities.
 
 ## Challenges Faced and Solutions
 
